@@ -44,7 +44,7 @@ req.onload = function () {
 
   //   c. Print the following details name, capital, flag using forEach function
 
-  jsonResponse.forEach((country) =>
+  jsonResponse.map((country) =>
     console.log(country.name + " , " + country.capital + " , " + country.flag)
   );
 
